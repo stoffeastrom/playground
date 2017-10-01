@@ -1,0 +1,54 @@
+{
+  "name": "playground",
+  "version": "0.1.0",
+  "description": "React playground",
+  "main": "index.ts",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stoffeastrom/playground.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "author": "Christoffer Åström",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stoffeastrom/playground/issues"
+  },
+  "homepage": "https://github.com/stoffeastrom/playground#readme",
+  "devDependencies": {
+    "@types/html-webpack-plugin": "^2.28.0",
+    "@types/react": "^16.0.7",
+    "@types/react-dom": "^15.5.5",
+    "@types/react-hot-loader": "^3.0.4",
+    "@types/react-router": "^4.0.15",
+    "@types/webpack": "^3.0.12",
+    "@types/webpack-env": "^1.13.1",
+    "awesome-typescript-loader": "^3.2.3",
+    "html-webpack-plugin": "^2.30.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "react-router": "^4.2.0",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.7.0",
+    "tslint-config-airbnb": "^5.3.0",
+    "tslint-loader": "^3.5.3",
+    "tslint-react": "^3.2.0",
+    "typescript": "^2.5.3",
+    "webpack": "^3.6.0",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-bundle-size-analyzer": "^2.7.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "engines": {
+    "node": "> 8"
+  }
+}
