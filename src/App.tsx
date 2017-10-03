@@ -17,10 +17,10 @@ export default class App extends React.Component<{}, { count: number }> {
 
   render() {
     return (
-        <div>
-            <h1>Hello world!</h1>
-            <div>Welcome to hot-reloading React written in TypeScript! {this.state.count}</div>
-        </div>
+      <div>
+        <h1>Hello world!</h1>
+        <div>Welcome to hot-reloading React written in TypeScript! {this.state.count}</div>
+      </div>
     );
   }
 }
