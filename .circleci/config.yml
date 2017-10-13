@@ -2,7 +2,7 @@ version: 2
 
 jobs:
   build:
-    working_directory: ~/
+    working_directory: ~/playground
     docker:
       - image: circleci/node:latest-browsers
     steps:
