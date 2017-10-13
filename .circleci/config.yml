@@ -1,0 +1,24 @@
+version: 2
+
+jobs:
+  build:
+    working_directory: ~/
+    docker:
+      - image: circleci/node:latest-browsers
+    steps:
+      - checkout
+      - restore_cache:
+          key: node_modules-cache-{{ checksum "package.json" }}
+      - run:
+          name: Install NPM packages
+          command: npm -s install
+      - save_cache:
+          key: node_modules-cache-{{ checksum "package.json" }}
+          paths:
+            - node_modules
+      - run:
+          name: Build
+          command: npm -s run build
+
+
+
