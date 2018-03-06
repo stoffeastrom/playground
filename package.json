@@ -30,7 +30,7 @@
     "@types/react-dom": "^16.0.1",
     "@types/react-hot-loader": "^3.0.4",
     "@types/react-router": "^4.0.15",
-    "@types/webpack": "^3.0.13",
+    "@types/webpack": "^4.0.0",
     "@types/webpack-env": "^1.13.1",
     "awesome-typescript-loader": "^3.2.3",
     "babel-core": "^6.26.0",
